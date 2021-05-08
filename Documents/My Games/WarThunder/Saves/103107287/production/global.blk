@@ -1,4 +1,4 @@
-version:i=258
+version:i=318
 
 content{
   profile{
@@ -10,7 +10,7 @@ content{
     automaticPump:b=yes
     globalSaveVersion:i=0
     saveVersion:i=2
-    countryId2:i=3
+    countryId2:i=9
     seenCampaignIntro:i=0
     firstFreeFlight:b=yes
     completedOneMission:i=0
@@ -178,17 +178,17 @@ content{
       air_killsU_15_0_0:i64=0
       ground_killsU_15_0_0:i64=0
       naval_killsU_15_0_0:i64=0
-      missions_0_1:i64=44
-      missionsU_0_1:i64=44
-      time_0_0_1:i64=12011000
-      respawns_0_0_1:i64=75
-      air_kills_0_0_1:i64=14
-      ground_kills_0_0_1:i64=22
+      missions_0_1:i64=55
+      missionsU_0_1:i64=55
+      time_0_0_1:i64=14481000
+      respawns_0_0_1:i64=93
+      air_kills_0_0_1:i64=21
+      ground_kills_0_0_1:i64=26
       naval_kills_0_0_1:i64=15
-      timeU_0_0_1:i64=12011000
-      respawnsU_0_0_1:i64=75
-      air_killsU_0_0_1:i64=14
-      ground_killsU_0_0_1:i64=22
+      timeU_0_0_1:i64=14481000
+      respawnsU_0_0_1:i64=93
+      air_killsU_0_0_1:i64=21
+      ground_killsU_0_0_1:i64=26
       naval_killsU_0_0_1:i64=15
       time_1_0_1:i64=0
       respawns_1_0_1:i64=0
@@ -200,25 +200,25 @@ content{
       air_killsU_1_0_1:i64=0
       ground_killsU_1_0_1:i64=0
       naval_killsU_1_0_1:i64=0
-      time_2_0_1:i64=2515000
-      respawns_2_0_1:i64=8
+      time_2_0_1:i64=2683000
+      respawns_2_0_1:i64=9
       air_kills_2_0_1:i64=5
-      ground_kills_2_0_1:i64=8
+      ground_kills_2_0_1:i64=9
       naval_kills_2_0_1:i64=3
-      timeU_2_0_1:i64=2515000
-      respawnsU_2_0_1:i64=8
+      timeU_2_0_1:i64=2683000
+      respawnsU_2_0_1:i64=9
       air_killsU_2_0_1:i64=5
-      ground_killsU_2_0_1:i64=8
+      ground_killsU_2_0_1:i64=9
       naval_killsU_2_0_1:i64=3
-      time_3_0_1:i64=0
-      respawns_3_0_1:i64=0
+      time_3_0_1:i64=580000
+      respawns_3_0_1:i64=2
       air_kills_3_0_1:i64=0
-      ground_kills_3_0_1:i64=0
+      ground_kills_3_0_1:i64=1
       naval_kills_3_0_1:i64=0
-      timeU_3_0_1:i64=0
-      respawnsU_3_0_1:i64=0
+      timeU_3_0_1:i64=580000
+      respawnsU_3_0_1:i64=2
       air_killsU_3_0_1:i64=0
-      ground_killsU_3_0_1:i64=0
+      ground_killsU_3_0_1:i64=1
       naval_killsU_3_0_1:i64=0
       time_4_0_1:i64=0
       respawns_4_0_1:i64=0
@@ -260,16 +260,16 @@ content{
       air_killsU_7_0_1:i64=0
       ground_killsU_7_0_1:i64=0
       naval_killsU_7_0_1:i64=0
-      time_8_0_1:i64=1640000
-      respawns_8_0_1:i64=11
+      time_8_0_1:i64=2219000
+      respawns_8_0_1:i64=17
       air_kills_8_0_1:i64=0
       ground_kills_8_0_1:i64=0
-      naval_kills_8_0_1:i64=1
-      timeU_8_0_1:i64=1640000
-      respawnsU_8_0_1:i64=11
+      naval_kills_8_0_1:i64=2
+      timeU_8_0_1:i64=2219000
+      respawnsU_8_0_1:i64=17
       air_killsU_8_0_1:i64=0
       ground_killsU_8_0_1:i64=0
-      naval_killsU_8_0_1:i64=1
+      naval_killsU_8_0_1:i64=2
       time_9_0_1:i64=0
       respawns_9_0_1:i64=0
       air_kills_9_0_1:i64=0
@@ -3424,7 +3424,7 @@ content{
     }
 
     last_played{
-      versusItem:t="stalingrad_GSn"
+      versusItem:t="sinai_Dom"
     }
 
     pedia_hints{
@@ -3477,6 +3477,7 @@ content{
     autoRearmOnAirfield:b=yes
     activateAirborneRadarOnSpawn:b=yes
     useRectangularRadarIndicator:b=no
+    useRadarHudInCockpit:b=yes
     hintsMask:i=128
     autosaveReplays:b=yes
     showAttachables:b=yes
@@ -3501,12 +3502,12 @@ content{
     gunConvergenceDistance:i=400
     bombDelayExplosion:r=0
     depthChargeDelayExplosion:r=3
-    mineDepth:r=1
     bombActivationType:i=0
     rocketFuseDist:r=0
     flaresPeriods:r=0.1
     flaresSeries:i=1
     flaresSeriesPeriods:r=1
+    bombSeries:i=0
     hudColor:i=0
     hudIndicators:i=0
     hangarSound:b=yes
@@ -3546,12 +3547,12 @@ content{
     playInactiveWindowSound:b=yes
 
     customSettings{
-      lastWonInVersion:i=355
+      lastWonInVersion:i=357
       fonts_css:t="compact"
 
       accounts{
         103107287.production{
-          selected_random_battle:t="ship_event_in_random_battles_arcade"
+          selected_random_battle:t="air_arcade"
           "statistic:new_player_tutorial_choice":b=yes
           firstRunTutorial_tutorialB_fighter:b=yes
           upgradeCrewSpecTutorialPassed:b=yes
@@ -3574,24 +3575,13 @@ content{
           }
 
           slotbar_presets{
+            presetsVersion:i=1
+
             country_japan{
               preset:t="8|8,9|ki_10_1_commander,ki_10_1|Авіація|air_arcade"
               preset:t="8|8,9|jp_type_98_ke_ni,jp_type_89b_i_go_otsu|Армія|tank_event_in_random_battles_arcade"
               preset:t="8|8|jp_t14_class|Флот|ship_event_in_random_battles_arcade"
               selected:i=0
-            }
-
-            country_sweden{
-              preset:t="16|16,17|gladiator_j8a,j6b|Авіація|air_arcade"
-              preset:t="16|16,17|sw_strv_m31,sw_strv_m38|Армія|tank_new_players_battle_coop"
-              selected:i=0
-            }
-
-            country_ussr{
-              preset:t="4|4,5|i-15_1935,i-15_1935_moscow|Авіація|air_arcade"
-              preset:t="4|4,5|ussr_t_26_1940,ussr_bt_5|Армія|tank_event_in_random_battles_arcade"
-              preset:t="4|4|ussr_g5_mtb|Флот|ship_event_in_random_battles_arcade"
-              selected:i=2
             }
 
             country_germany{
@@ -3620,18 +3610,31 @@ content{
               selected:i=0
             }
 
-            country_usa{
-              preset:t="0|0,1,18|p-26a_34_m2,p-26b_35,f3f-2|Авіація|air_arcade"
-              preset:t="0|0,1|us_m2a4,us_lvt_a_1|Армія|tank_new_players_battle_coop"
-              preset:t="0|0|us_pt6|Флот|ship_event_in_random_battles_arcade"
-              selected:i=0
-            }
-
             country_italy{
               preset:t="10|10,11,24|cr_32,cr_32_quater,ba_65_k14_l|Авіація|air_arcade"
               preset:t="10|10,11|it_m13_40_serie_1,it_m13_40_serie_3|Армія|tank_event_in_random_battles_arcade"
               preset:t="10|10|it_mas_classe500_3|Флот|ship_event_in_random_battles_arcade"
               selected:i=2
+            }
+
+            country_ussr{
+              preset:t="4|4,5|i-15_1935,i-15_1935_moscow|Авіація|air_arcade"
+              preset:t="4|4,5|ussr_t_26_1940,ussr_bt_5|Армія|tank_new_players_battle_coop"
+              preset:t="4|4|ussr_g5_mtb|Флот|ship_event_in_random_battles_arcade"
+              selected:i=0
+            }
+
+            country_usa{
+              preset:t="0|0,1,18|p-26a_34_m2,p-26b_35,f3f-2|Авіація|air_arcade"
+              preset:t="0|0,1|us_m2a4,us_lvt_a_1|Армія|tank_event_in_random_battles_arcade"
+              preset:t="0|0|us_pt6|Флот|ship_event_in_random_battles_arcade"
+              selected:i=1
+            }
+
+            country_sweden{
+              preset:t="16|16,17|gladiator_j8a,j6b|Авіація|air_arcade"
+              preset:t="16|16,17|sw_strv_m31,sw_strv_m38|Армія|tank_event_in_random_battles_arcade"
+              selected:i=0
             }
           }
 
@@ -3642,6 +3645,7 @@ content{
           seen{
             help_mission_type{
               missionGroundStrikeComplete:i=1
+              missionGroundCapture:i=1
             }
 
             gameModes{
@@ -3661,18 +3665,30 @@ content{
             lastDayFacebookLikeReminder:i=737966
           }
 
+          popup{
+            anniversary_of_poland_regaining_independence_popup:i=738106
+          }
+
           selected_crews{
+            country_usa:i=1
+            country_germany:i=0
             country_ussr:i=0
+            country_britain:i=0
+            country_japan:i=0
+            country_china:i=0
+            country_italy:i=0
+            country_france:i=1
+            country_sweden:i=0
           }
         }
       }
 
       seen{
         events{
-          air_simulation_timeDelay_battles:i=737968
-          tank_random_battles_simulation_1:i=737968
-          test_helicopter_arcade_timeDelay:i=737968
-          tank_random_battles_simulation:i=737968
+          air_simulation_timeDelay_battles:i=738106
+          tank_random_battles_simulation_1:i=738106
+          test_helicopter_arcade_timeDelay:i=738106
+          tank_random_battles_simulation:i=738106
         }
       }
 
@@ -3685,7 +3701,7 @@ content{
       }
 
       changelog{
-        lastSeenVersionInfoNum:i=23265283
+        lastSeenVersionInfoNum:i=23396352
       }
 
       voted_polls{
@@ -3693,8 +3709,8 @@ content{
 
       viralAcquisition{
         resetDays:i=1
-        lastLoginDay:i=737968
-        lastShowTime:i=737966
+        lastLoginDay:i=738106
+        lastShowTime:i=738106
       }
 
       mislist_collapsed_chapters{
@@ -3702,6 +3718,11 @@ content{
       }
 
       chatRooms{
+        room0:t="#general_en"
+      }
+
+      1366x768{
+        contacts_sizes:t='{"pos":[526,233],"size":[173,380]}'
       }
     }
 
@@ -3865,6 +3886,51 @@ content{
         USEROPT_ROCKET_FUSE_DIST:i=0
         USEROPT_LOAD_FUEL_AMOUNT:i=300000
       }
+
+      i-15_1935_moscow{
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
+
+      us_m2a4{
+        USEROPT_BULLETS0:t="37mm_default"
+        USEROPT_BULLETS1:t="37mm_default"
+        USEROPT_BULLETS2:t="37mm_default"
+        USEROPT_BULLETS3:t="37mm_default"
+        USEROPT_BULLET_COUNT0:i=103
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
+
+      sw_strv_m38{
+        USEROPT_BULLETS0:t="37mm_default"
+        USEROPT_BULLETS1:t="37mm_default"
+        USEROPT_BULLETS2:t="37mm_default"
+        USEROPT_BULLETS3:t="37mm_default"
+        USEROPT_BULLET_COUNT0:i=100
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
+
+      sw_strv_m31{
+        USEROPT_BULLETS0:t="37mm_default"
+        USEROPT_BULLETS1:t="37mm_default"
+        USEROPT_BULLETS2:t="37mm_default"
+        USEROPT_BULLETS3:t="37mm_default"
+        USEROPT_BULLET_COUNT0:i=127
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
+
+      us_lvt_a_1{
+        USEROPT_BULLETS0:t="37mm_default"
+        USEROPT_BULLETS1:t="37mm_default"
+        USEROPT_BULLETS2:t="37mm_default"
+        USEROPT_BULLETS3:t="37mm_default"
+        USEROPT_BULLET_COUNT0:i=104
+        USEROPT_ROCKET_FUSE_DIST:i=0
+        USEROPT_LOAD_FUEL_AMOUNT:i=300000
+      }
     }
 
     userSkins{
@@ -3872,6 +3938,23 @@ content{
     }
 
     tankAltCrosshair{
+      mi_24p:t="test_crosshair"
+      mi_24a:t="test_crosshair"
+      mi_24v:t="test_crosshair"
+      mi_35m:t="test_crosshair"
+      uh_1c:t="test_crosshair"
+      ah_1f:t="test_crosshair"
+      ah_1z:t="test_crosshair"
+      mi_4av:t="test_crosshair"
+      sa_342m:t="test_crosshair"
+      bo_105pah1:t="test_crosshair"
+      bo_105pah1_a1:t="test_crosshair"
+      ka_52:t="test_crosshair"
+      tiger_had_france:t="test_crosshair"
+      tiger_uht:t="test_crosshair"
+      ah_64a:t="test_crosshair"
+      ah_64d:t="test_crosshair"
+      ka_29:t="test_crosshair"
     }
 
     forbid_visual_tags{
@@ -3879,13 +3962,13 @@ content{
   }
 
   selectedAir{
-    current_model:t="ussr_g5_mtb"
+    current_model:t="gladiator_j8a"
     france:t="d_510"
     china:t="i-15bis_china"
     britain:t="fury_mk1"
     germany:t="germ_ls_class"
-    usa:t="p-26a_34_m2"
-    ussr:t="ussr_g5_mtb"
+    usa:t="us_lvt_a_1"
+    ussr:t="i-15_1935_moscow"
     japan:t="ki_10_1_commander"
     sweden:t="gladiator_j8a"
     italy:t="it_mas_classe500_3"
